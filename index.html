@@ -59,7 +59,7 @@
                 
             </button>
 
-            <div class="absolute md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 bg-white overflow-hidden max-h-screen top-full shadow-main p-4" id="mobile-menu">
+            <div class="absolute flex md:hidden flex-col items-start justify-center w-full gap-3 bg-white overflow-hidden max-h-screen top-full shadow-main p-4" id="mobile-menu">
                
                     <a href="#" class="hover:underline">Product</a>
                     <a href="#" class="hover:underline">Features</a>
@@ -77,7 +77,47 @@
         
     </div>
     <div class="w-full" id="Products">
-        <!-- Wide full-width container for additional content -->
+        <!-- Hero -->
+         <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5 ">
+            <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
+                <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
+                    The Clever Place To Keep Your Cache
+                </h1>
+                <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 ">
+                    Cache Bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write. Our services offer cutting-edge financial solutions that help you take care of your cash.
+                </p>
+
+                <div class="flex flex-col items-center gap-4 lg:flex-row ">
+                    <button class="flex items-center py-4 text-sm font-bold text-white px-7 focus:ring-4 focus:ring-purple-blue-100 transition-duration-300 rounded-xl bg-green-500 hover:bg-pink-500">
+                         Join Cache Now
+                    </button>
+                    <button class="flex items-center py-4 text-sm font-bold text-white px-7 focus:ring-4 focus:ring-purple-blue-100 transition-duration-300 rounded-xl bg-green-500 hover:bg-pink-500">
+                        Join Our Discord Server
+                    </button>
+                </div>
+            </div>
+
+            <div class="items-center justify-end hidden col-span-1 md:flex  ">
+                <img class="w-4/5 rounded-md" src="/assets/component-2/hero-image.png" alt="Animated Person using computer">
+
+            </div>
+
+         </section>
+         <!--Endorsements-->
+         <section class="w-full">
+            <div class="container flex flex-col items-center gap-8 mx-auto my-40">
+                <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl ">
+                    Endorsed by Global Companies like
+                </p>
+            </div>
+            <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
+                <span> <img src="./assets/component-2/logos/amazon-logo.svg" alt=""> </span>
+                <span> <img src="./assets/component-2/logos/minecraft-logo.svg" alt=""></span>
+                <span> <img src="./assets/component-2/logos/nike-logo.svg" alt=""></span>
+                <span> <img src="./assets/component-2/logos/notion-logo.svg" alt=""></span>
+                <span> <img src="./assets/component-2/logos/steam-logo.svg" alt=""></span>
+            </div>
+         </section>
     </div>
     <div class="container mx-auto" id="Features">
         <!-- Centered container for more content -->
