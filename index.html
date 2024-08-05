@@ -12,25 +12,88 @@
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
 
-<body class="null">
-    <div class="container flex flex-col mx-auto">
+<body class="bg-gray-200">
+    <div>
         <!-- Main container with navigation and header content -->
+        <div class="mx-auto bg-white">
+            <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
+                <img src="/assets/component-1/navigation/cache-bank-logo.png" alt="cache-bank-logo" class="w-52 p-10">
+            <div class="hidden md:flex items-center justify-between text-black gap-12 ">
+                <a href="#" class="hover:underline">Product</a>
+                <a href="#" class="hover:underline">Features</a>
+                <a href="#" class="hover:underline">Get Started</a>
+                <a href="#" class="hover:underline">Contact</a>
+            </div>
+            <div class="hidden gap-8 p-4 items-center md:flex">
+                <button class="text-sm font-semibold text-dark-grey-700 hover:text-dark-grey-900 hover:underline">Log in</button>
+                <button class="text-sm font-semibold text-dark-grey-800 bg-green-500 px-4 py-2 rounded-xl hover:text-dark-grey-900 hover:bg-pink-500">Sign Up</button>
+            </div>
+            <button class="p-4 md:hidden" id="mobile-menu-toggle">
+                <svg
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="h-6 w-6"
+            fill="none"
+            >
+            <g clip-path="url(#clip0_429_11066)">
+              <path
+                d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+                stroke="#292929"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_429_11066">
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0 0.000915527)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+                
+            </button>
+
+            <div class="absolute md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 bg-white overflow-hidden max-h-screen top-full shadow-main p-4" id="mobile-menu">
+               
+                    <a href="#" class="hover:underline">Product</a>
+                    <a href="#" class="hover:underline">Features</a>
+                    <a href="#" class="hover:underline">Pricing</a>
+                    <a href="#" class="hover:underline">Company</a>
+                
+                
+                    <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log in</button>
+                    <button class="text-sm font-semibold text-dark-grey-800 bg-green-500 px-4 py-2 rounded-xl hover:text-purple-600 hover:bg-purple-200 ">Sign Up</button>
+            
+
+            </div>
+            
+        </div>
+        
     </div>
-    <div class="w-full">
+    <div class="w-full" id="Products">
         <!-- Wide full-width container for additional content -->
     </div>
-    <div class="container mx-auto">
+    <div class="container mx-auto" id="Features">
         <!-- Centered container for more content -->
     </div>
-    <div class="w-full">
+    <div class="w-full" id="Pricing">
         <!-- Wide full-width container for additional content -->
     </div>
-    <div class="w-full">
+    <div class="w-full" id="Company">
         <!-- Wide full-width container for additional content -->
     </div>
-    <div class="w-full bg-green-500">
+    <div class="w-full bg-green-500" >
         <!-- Full-width footer container with green background -->
     </div>
+    <script>
+        document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden")})
+    </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
