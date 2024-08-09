@@ -1,19 +1,10 @@
-# Installation
+This is my SDF 11 Final Project
+Cache Bank Landing Page 
 
-```
-# Install dependencies
-npm install
+You can find my slides highlighting what is being said in my LOOM Presentation Video here:
+* https://docs.google.com/presentation/d/1q8g2LGj-wFTnwSZ2yLDBqVQysvIL_nqkH8bU4AJEqD8/edit?usp=sharing
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
+You can find my LOOM Video here:
+* https://www.loom.com/share/7592c2f4c15c4c7d9ce3994d13cb3f96?sid=4b0f41ab-38d4-40e8-b413-47417b90c250
 
-# Compile Tailwind CSS
-npm run build
-
-# Compile Tailwind CSS minified
-npm run build-minify
-
-```
-
-# Presentation Talking Points and Presentation Slide Template
-Check out the Project Overview in this GitHub Repo for the guide to talking points for your presentation as well the starter template for your Google Slides here: https://github.com/CodeSpace-Academy/SDF_Portfolio_Piece_StudentNo_Classcode_Group_Name-Surname_SDF11/blob/main/11_portfolio_piece_1.md
+Thank You !
